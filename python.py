@@ -56,3 +56,17 @@ def filter_long_string(stringArray):
 
 
 print(filter_long_string(["Tanvir","Hossain","jamal","kamal","mokkol"]));
+
+
+# contain only even integer number 
+
+def filter_even_number(numbers): 
+  even_number = []
+  for number in numbers:
+    if number % 2 == 0:
+      even_number.append(number)
+  return even_number;
+
+
+
+print(filter_even_number([10,20,31,45,55]));
