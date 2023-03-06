@@ -43,3 +43,16 @@ def reverse_sentence(sentence):
 
 
 print(reverse_sentence('My Name is Tanvir Hossain'));
+
+
+#  contains only the strings that have a length greater than 5.
+
+def filter_long_string(stringArray): 
+  log_string = [];
+  for string in stringArray : 
+    if len(string) > 5 : 
+      log_string.append(string)
+  return log_string
+
+
+print(filter_long_string(["Tanvir","Hossain","jamal","kamal","mokkol"]));

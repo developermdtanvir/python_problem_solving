@@ -6,3 +6,4 @@
 
 - Find largest Number an Array
 - Reverse Sentence
+- container only the strings that have a length gether then 5
