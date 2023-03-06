@@ -69,4 +69,29 @@ def filter_even_number(numbers):
 
 
 
-print(filter_even_number([10,20,31,45,55]));
+print("even Number",filter_even_number([10,20,31,45,55]));
+
+
+# sum array number
+
+def sum_numbers(numbers):
+  total = 0
+  for number in numbers : 
+    total = total + number
+  return total
+
+
+print(sum_numbers([10,20,30,40,50]));
+
+# vowel number count 
+
+def count_vowel(string):
+  vowel = 'aeiou'
+  count = 0
+  for letter in string : 
+    if letter.lower() in vowel:
+      count = count + 1
+  return count
+
+
+print(count_vowel("Hello World"));
