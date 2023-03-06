@@ -20,6 +20,8 @@ my_function(40,30)
 
 print(type(True));
 
+# find largest number an array 
+
 def find_largest_number(numbers):
   largest = numbers[0];
   for number in numbers : 
@@ -29,3 +31,15 @@ def find_largest_number(numbers):
 
 
 print(find_largest_number([10,20,30,40,50]))
+
+
+# reverse an array 
+
+def reverse_sentence(sentence):
+  word = sentence.split();
+  word.reverse()
+  reverse_sentences = ' '.join(word);
+  return reverse_sentences;
+
+
+print(reverse_sentence('My Name is Tanvir Hossain'));
