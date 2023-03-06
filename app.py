@@ -20,4 +20,18 @@ def unique_number_array(numbers):
     return unique_number
 
 
-print(unique_number_array([10,20,30,40,20,40,40,50,60]))
+print("unique Number an array",unique_number_array([10,20,30,40,20,40,40,50,60]))
+
+# extract vowels string 
+
+def extract_vowels(strings):
+    vowels = "aeiouAEIOU"
+    extract = ''
+    for string in strings:
+        if string in vowels:
+            extract = extract + string
+    return extract
+
+
+
+print("extract vowels of a string",extract_vowels("Tanvir hossainA "));

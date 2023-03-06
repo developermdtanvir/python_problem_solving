@@ -11,3 +11,4 @@
 - vowel number count from string
 - find largest number an array
 - array contains check unique number an array
+- extract vowel of a string
