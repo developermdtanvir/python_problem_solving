@@ -55,7 +55,7 @@ def filter_long_string(stringArray):
   return log_string
 
 
-print(filter_long_string(["Tanvir","Hossain","jamal","kamal","mokkol"]));
+print("filter long string greater then 5: ",filter_long_string(["Tanvir","Hossain","jamal","kamal","mokkol"]));
 
 
 # contain only even integer number 
@@ -69,7 +69,7 @@ def filter_even_number(numbers):
 
 
 
-print("even Number",filter_even_number([10,20,31,45,55]));
+print("even Number:",filter_even_number([10,20,31,45,55]));
 
 
 # sum array number
@@ -81,7 +81,7 @@ def sum_numbers(numbers):
   return total
 
 
-print(sum_numbers([10,20,30,40,50]));
+print("sum numbers ",sum_numbers([10,20,30,40,50]));
 
 # vowel number count 
 
@@ -94,4 +94,4 @@ def count_vowel(string):
   return count
 
 
-print(count_vowel("Hello World"));
+print("Number of Vowels:",count_vowel("Hello World"));
